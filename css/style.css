@@ -1,0 +1,126 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: #000000;
+}
+
+
+.Map {
+  max-width: 500px;
+}
+
+.container {
+position: relative;
+max-width: 100%;
+margin: auto;
+}
+
+.search-bar {
+  width: 440px;
+  box-shadow: 0 5px 20px 0 rgba(0,0,0,0.34);
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  position: absolute;
+  top: 50px;
+  left: 35px;
+  color: #8E8E93;
+  font-size: 19px;
+  font-weight: 400;
+}
+
+
+.fa {
+	color: #E66354;
+}
+
+
+.bottom-nav {
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  position: absolute;
+  top: 450px;
+  color: #000000;
+}
+
+
+.GripLines {
+width: 6%;
+}
+
+
+h1 {
+font-size: 28px;
+}
+
+h2 {
+  font-size: 24px;
+  color: #515156;
+}
+
+h3 {
+  font-size: 20px;
+  color: #808087;
+}
+
+h4 {
+  font-size: 18px;
+  color: #4B4B4B;
+}
+
+h5 {
+  font-size: 22px;
+  color: #000000;
+}
+
+
+h6 {
+  font-size: 16px;
+  color: #000000;
+}
+
+
+
+
+.location {
+  color: #E66354;
+}
+
+.bus-num {
+  max-width: 50px;
+  height: 22px;
+  background: #26367C;
+  border-radius: 3px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700px;
+
+}
+
+.button {
+  max-width: 425px;
+  background-color: #E66354;
+  padding: 10px 110px;
+  border: none;
+  color: white;
+  font-size: 22px;
+  font-weight: 300;
+
+}
+
+
+.transit-nav {
+  max-width: 85%;
+  background: rgba(245,245,244,0.50);
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.08);
+  border-radius: 6px;
+
+
+
+}
+}
