@@ -7,10 +7,25 @@ body {
     background-color: #000000;
 }
 
+.button {
+  width: 425px;
+  height: 55px;
+  background-color: #E66354;
+  padding: 10px 110px;
+  border: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  display: inline-flex;
+  background: #E66354;
+  border-radius: 0 0 6px 6px;
+
+}
 
 .Map {
-  max-width: 500px;
+  width: 500px;
 }
+
 
 .container {
 position: relative;
@@ -38,79 +53,57 @@ margin: auto;
 }
 
 
+.fa.fa-bars{
+  padding-right: 15px;
+
+}
+
+.fa.fa-search{
+    margin-left: 245px;
+
+}
+
+
+.wifi {
+  position: fixed;
+  top: 375px;
+  right: 795px;
+
+
+}
+
+
+
+
+
+hr {
+  border: .5px solid #CBCBCB;
+
+
+}
+
+
+
 .bottom-nav {
   width: 500px;
-  height: 500px;
+  height: 800px;
   border-radius: 10px;
   background-color: #ffffff;
   position: absolute;
   top: 450px;
   color: #000000;
+  box-shadow: 0 6px 20px 0 rgba(0,0,0,0.34);
 }
-
-
-.GripLines {
-width: 6%;
-}
-
-
-h1 {
-font-size: 28px;
-}
-
-h2 {
-  font-size: 24px;
-  color: #515156;
-}
-
-h3 {
-  font-size: 20px;
-  color: #808087;
-}
-
-h4 {
-  font-size: 18px;
-  color: #4B4B4B;
-}
-
-h5 {
-  font-size: 22px;
-  color: #000000;
-}
-
-
-h6 {
-  font-size: 16px;
-  color: #000000;
-}
-
-
-
 
 .location {
   color: #E66354;
 }
 
-.bus-num {
-  max-width: 50px;
-  height: 22px;
-  background: #26367C;
-  border-radius: 3px;
-  color: #ffffff;
-  font-size: 20px;
-  font-weight: 700px;
 
-}
-
-.button {
-  max-width: 425px;
-  background-color: #E66354;
-  padding: 10px 110px;
-  border: none;
-  color: white;
-  font-size: 22px;
-  font-weight: 300;
-
+.GripLines {
+width: 6%;
+margin-left: 230px;
+margin-top: 15px;
 }
 
 
@@ -119,8 +112,93 @@ h6 {
   background: rgba(245,245,244,0.50);
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.08);
   border-radius: 6px;
+  margin-left: 35px;
+
+
+}
+
+#bus-icon {
+    float: left;
+    padding-right: 15px;
+
+}
+
+.bus-stop {
+  margin-left: 25px;
+  padding-top: 25px;
 
 
 
 }
+
+
+.bus-num {
+  float:left;
+  width: 50px;
+  height: 22px;
+  margin-top: 8px;
+  background: #26367C;
+  border-radius: 3px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700px;
+  text-align: center;
+  margin-right: 10px;
+  padding-top: 1px;
+}
+
+
+
+h1 {
+font-size: 28px;
+margin-top: 15px;
+margin-bottom: 25px;
+text-align: center;
+}
+
+
+
+h2 {
+  font-size: 24px;
+  color: #515156;
+  text-align: left;
+}
+
+h3 {
+  font-size: 20px;
+  color: #808087;
+  text-align: left;
+}
+
+h4 {
+  font-size: 18px;
+  color: #4B4B4B;
+  display: inline-block;
+  float: left;
+  margin-top: 10px;
+}
+
+h5 {
+  font-size: 22px;
+  color: #000000;
+  display: inline-block;
+  text-align:left;
+}
+
+
+h6 {
+  font-size: 16px;
+  color: #000000;
+  text-align:left;
+}
+
+
+.route {
+    padding-top: 10px;
+    padding-left: 25px;
+    text-align: right;
+    margin-right: 10px;
+
+
+
 }
