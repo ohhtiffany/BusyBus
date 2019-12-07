@@ -65,9 +65,9 @@ margin: auto;
 
 
 .wifi {
-  position: fixed;
-  top: 375px;
-  right: 795px;
+  position: absolute;
+  top: 185px;
+  right: 110px;
 
 
 }
