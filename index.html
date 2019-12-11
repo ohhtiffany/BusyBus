@@ -14,10 +14,22 @@
 
   <nav>
     <div class ="search-bar">
-    <i class="fa fa-bars fa-lg"></i>
-    Where to?
-    <i class="fa fa-search fa-lg"></i>
-  </div>
+
+      <form class="Wherelocation" action="/search/" method ="post">
+        <fieldset name="location-info">
+
+          <label for="location_search">
+        </label>
+
+            <i class="fa fa-bars fa-lg"></i>
+
+         <input type="location" name="location" id="location" placeholder="Where to?">
+
+
+         <button type="submit"><i class="fa fa-search fa-lg"></i>
+      </button>
+    </form>
+       </div>
   </nav>
 
 
@@ -43,8 +55,9 @@
 
 
         <div class="bus-stop">
+        <div class="mainbus">
         <div id="bus-icon">
-        <svg width="47px" height="47px" viewBox="0 0 47 47" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <svg width="40px" height="40px" viewBox="0 0 47 47" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
           <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
               <g id="BusyBus-" transform="translate(-44.000000, -486.000000)">
                   <g id="Bus-Icon" transform="translate(44.000000, 486.000000)">
@@ -59,7 +72,7 @@
         <h2>Washington & State</h2>
         <h3><p>1.0 miles</p></h3>
         </div>
-
+      </div>
         <div class="route">
         <div class="bus-num">60</div>
         <h4>Randolph/ Harbour Dr</h4>
@@ -155,6 +168,5 @@
 
   </div>
 
-</div>
 </body>
 </html>
