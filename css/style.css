@@ -23,6 +23,7 @@ body {
 }
 
 
+
 form.Location-Search-Bar button {
   float: right;
   width: 20%;
@@ -142,10 +143,11 @@ margin-top: 15px;
 
 
 
+
 .bus-icon {
     display: inline-flex;
     float: left;
-    padding-right: 15px;
+    padding-right: 12px;
 
 
 }
@@ -213,20 +215,30 @@ h5 {
 }
 
 
-ul li ul li {
-    font-size: 17px;
-    padding-top: 1.5px;
+.bus-routes {
+  top: 15px;
+}
 
 
+.route {
+    padding-top: 15px;
+    padding-left: 25px;
+    text-align: right;
+    margin-right: 10px;
 }
 
 
 
 
+ul li ul li {
+    font-size: 17px;
+}
 
-.route {
-    padding-top: 10px;
-    padding-left: 25px;
-    text-align: right;
-    margin-right: 10px;
+
+.dashed-border {
+     width: 100%;
+     margin: auto;
+     margin-top: 5%;
+     margin-bottom: 5%;
+     border: 3px dashed #1A85FD;
 }
