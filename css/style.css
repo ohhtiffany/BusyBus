@@ -9,21 +9,6 @@ body {
 }
 
 
-.button {
-  width: 318.75px;
-  height: 55px;
-  background-color: #E66354;
-  border: none;
-  color: white;
-  font-size: 16px;
-  font-weight: 300;
-  display: inline-flex;
-  background: #E66354;
-  border-radius: 0 0 6px 6px;
-}
-
-
-
 form.Location-Search-Bar button {
   float: right;
   width: 20%;
@@ -35,8 +20,6 @@ form.Location-Search-Bar button {
   border-left: none;
   cursor: pointer;
 }
-
-
 
 
 .Map {
@@ -92,12 +75,16 @@ fieldset {
 
 .wifi {
   position: absolute;
-  top: 185px;
-  right: 110px;
+  top: 170px;
+  right: 64px;
+  width: 10px;
 }
 
 .fa.fa-history {
   position: absolute;
+  left: 275px;
+  font-size: 16px;
+  padding-top: 8px;
 
 
 }
@@ -128,12 +115,14 @@ margin-top: 15px;
 
 
 .mainbus {
-  padding-top: 15px;
+  padding-top: 12px;
+  padding-bottom: 5px;
 
 }
 
 .transit-nav {
   max-width: 85%;
+  height: 494px;
   background: rgba(245,245,244,0.50);
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.08);
   border-radius: 6px;
@@ -214,14 +203,23 @@ h5 {
   margin-right: 50%;
 }
 
+h6  {
+  font-size: 11px;
+  display: inline-flex;
+
+}
+
+
 
 .bus-routes {
-  top: 15px;
+  border-bottom: 1px solid #CBCBCB;
+  padding-bottom: 26px;
+
 }
 
 
 .route {
-    padding-top: 15px;
+    padding-top: 5px;
     padding-left: 25px;
     text-align: right;
     margin-right: 10px;
@@ -229,16 +227,33 @@ h5 {
 
 
 
+.time {
+    font-size: 16px;
+    transform: translate(8px, 8px);
 
-ul li ul li {
-    font-size: 17px;
 }
 
 
-.dashed-border {
-     width: 100%;
-     margin: auto;
-     margin-top: 5%;
-     margin-bottom: 5%;
-     border: 3px dashed #1A85FD;
+.button {
+  width: 85.5%;
+  height: 55px;
+  background-color: #E66354;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 300;
+  display: inline-block;
+  background: #E66354;
+  border-radius: 0 0 6px 6px;
+  position: absolute;
+  right: 30.5px;
+  top: 595px;
+}
+
+
+.calendy {
+    position: relative;
+    top: 8px;
+
+
 }
