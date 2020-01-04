@@ -249,11 +249,12 @@ h6  {
 
 .frequency {
   font-size: 11px;
-  color: green;
+  color: #3c3c3c;
   font-weight: bold;
   position: absolute;
   left: 295px;
   padding-top: 7px;
+
 
 }
 
